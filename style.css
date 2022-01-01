@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+table{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid black;
+}
+.total{
+    text-align: end;
+    text-transform: uppercase;
+}
+input{
+    padding: .2rem;
+}
+.resultado{
+    width: 10rem;
+    text-align: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
